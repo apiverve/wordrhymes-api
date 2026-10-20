@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Rhyming Words
   description: >-
-    Word Rhymes is a simple tool for getting word rhymes. It returns a list of
-    rhyming words.
+    Rhyming Words finds matching rhymes for any query word, returning a list of
+    rhyming words and a total match count. Paid plans can adjust the maximum
+    number of rhymes returned.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/wordrhymes:
     get:
-      summary: Get Rhyming Words
+      summary: Rhyming Words
       description: Get a list of words that rhyme with the specified word
       operationId: wordrhymes
       parameters:
