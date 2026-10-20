@@ -2,17 +2,17 @@ from setuptools import setup, find_packages
 
 setup(
     name='apiverve_rhymingwords',
-    version='1.1.14',
+    version='1.2.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'requests',
         'setuptools'
     ],
-    description='Word Rhymes is a simple tool for getting word rhymes. It returns a list of rhyming words.',
+    description='Rhyming Words finds matching rhymes for any query word, returning a list of rhyming words and a total match count. Paid plans can adjust the maximum number of rhymes returned.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://wordrhymes.apiverve.com?utm_source=pypi&utm_medium=homepage',
+    url='https://apiverve.com/marketplace/wordrhymes?utm_source=pypi&utm_medium=referral&utm_content=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
