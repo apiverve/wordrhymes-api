@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/wordrhymes",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Rhyming Words finds matching rhymes for any query word, returning a list of rhyming words and a total match count. Paid plans can adjust the maximum number of rhymes returned.",
   "main": "index.js",
   "types": "index.d.ts",
